@@ -1,19 +1,17 @@
 package hexlet.code;
 
 import hexlet.code.mod2.Counter;
+import hexlet.code.mod2.autotest.Methods;
+
+import java.util.regex.Matcher;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
 
-        Counter c = new Counter();
-        Counter c2 = new Counter();
-        c2.setCounter(4);
-        c.decrement();
-        c2.increment();
 
-        System.out.println(c.getCounter());
-        System.out.println(c2.getCounter());
+        System.out.println(Methods.without(numbers, 2,3));
     }
 }
