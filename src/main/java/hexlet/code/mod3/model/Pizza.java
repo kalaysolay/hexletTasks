@@ -1,6 +1,8 @@
 package hexlet.code.mod3.model;
 import lombok.Data;
+import lombok.Builder;
 
+@Builder
 @Data
 public final class Pizza {
     private String size;
