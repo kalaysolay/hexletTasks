@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MethodsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-09T16:42:22" hostname="WIN-8UNECQMIDTF" time="0.017">
-  <properties/>
-  <testcase name="testGt()" classname="MethodsTest" time="0.003"/>
-  <testcase name="testValidator()" classname="MethodsTest" time="0.002"/>
-  <testcase name="testWithout()" classname="MethodsTest" time="0.008"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

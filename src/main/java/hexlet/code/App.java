@@ -5,6 +5,8 @@ import hexlet.code.mod3.model.CarRide;
 import hexlet.code.mod3.model.Customer;
 import hexlet.code.mod3.model.Pizza;
 
+import java.time.LocalDate;
+
 public class App {
     public static Pizza getPizza() {
         var pizza = Pizza.builder()
@@ -21,6 +23,8 @@ public class App {
         var ride = new CarRide();
         ride.setCar(car);
         ride.setCustomer(customer);
+        ride.setStartedAt(LocalDate.now());
+        ride.getCustomer().addRide(ride);
         return ride;
     }
 }

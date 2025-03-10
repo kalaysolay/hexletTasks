@@ -6,6 +6,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 @Getter
+@Setter
 public class CarRide {
 
     private Customer customer;
@@ -13,13 +14,9 @@ public class CarRide {
     private LocalDate startedAt;
     private LocalDate finishedAt;
 
-    public void setCar(Car car) {
-        this.car = car;
-        customer.addRide(this);
-    }
-
     public void setCustomer(Customer customer) {
         this.customer= customer;
         car.addRide(this);
     }
+
 }

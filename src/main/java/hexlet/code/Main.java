@@ -49,15 +49,8 @@ public class Main {
         //var car2 = new Car("Impreza","1234567890");
 
         var car = new Car("audi a4", "1FTEX1E81AF746863");
-        var customer = new Customer("Ann");
+        var customer = new Customer("John Bin");
 
-        var ride = App.getRide(customer, car);
-        var ride2 = App.getRide(customer, car);
-
-        System.out.println(customer.getRides());
-        System.out.println("Customer: " + ride.getCustomer());
-        System.out.println("Car: " + ride.getCar());
-        System.out.println("------------------------------");
-        System.out.println("Customer Rides: " + customer.getRides());
+        var actualRide = App.getRide(customer, car);
     }
 }
